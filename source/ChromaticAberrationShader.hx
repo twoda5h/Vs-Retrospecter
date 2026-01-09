@@ -5,6 +5,7 @@ import flixel.system.FlxAssets.FlxShader;
 class ChromaticAberrationShader extends FlxShader
 {
 	@:glFragmentSource('
+		#version 140
 		#pragma header
 		
         uniform vec2 rOffset;
